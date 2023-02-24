@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&family=Russo+One&display=swap'); /*font*/
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /*font-family: "Gothic+A1", sans-serif;*/
+    background-color: rgb(50, 49, 50);
+}
+
+html {
+    font-size: 10;
+    scroll-behavior: smooth;
+}
+
+
+
+/*start form*/
+.form {
+    color: rgb(251, 248, 248);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.form .content {
+    background-color: rgb(205, 207, 207);
+    display: flex;
+    width: 780px;
+    height: 380px;
+    border: 1.5px solid rgb(50, 49, 50);
+    border-radius:10px ;
+    margin: 50px auto;
+}
+.form .image {
+    width: 400px;
+    height: 360px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+
+}
+.form .content .forrm {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: rgb(0, 7, 7);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.form .content .forrm .parg {
+    padding-right: 70px;
+    font-weight: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.form .content .input {
+    background-color: white;  
+    border: 1px solid rgb(245, 248, 248);
+    border-radius: 5px ; 
+    width: 320px;
+    height: 35px;
+
+}
+
+.form .content .input[type="email"] , [type="password"] , [type="text"]{
+    margin-bottom: 4px;
+    outline: none;
+
+}
+.form .content .input[type="submit"] {
+    background-color: rgb(35, 35, 248);
+    margin-top: 5px;
+    margin-bottom: 40px;
+    border: 1px solid rgb(35, 35, 248);
+    border-radius: 5px ;
+    font-size: 10px;
+    outline: none;
+    color: aliceblue;
+    box-shadow: 5px 5px 8px rgb(146, 146, 147);
+
+}
+/*ednd form*/
+
+/*start pag3*/
+.pag3 {
+    color: rgb(251, 248, 248);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.pag3 .content3 {
+    background-color: rgb(205, 207, 207);
+    display: flex;
+    width: 700px;
+    height: 320px;
+    border: 1.5px solid rgb(50, 49, 50);
+    border-radius:10px ;
+    margin: 50px auto;
+}
+.pag3 .image3 {
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+
+}
+.pag3 .content3 .text3 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: rgb(0, 7, 7);
+    padding-top: 110px;
+    font-size: 15px;
+}
+
+
+/*end pag3*/
